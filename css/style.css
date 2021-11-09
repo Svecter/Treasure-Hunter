@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'VT323', monospace;
 }
 .background{
     width: 100%;
@@ -20,7 +20,7 @@
   align-items: center;
 }
 .logo{
-  width: 50px;
+  width: 150px;
   cursor: pointer;
 }
 nav{
@@ -35,7 +35,12 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: #fff;
-  font-size: 13px;
+  font-size: 60px;
+}
+li{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  transition: transform 0.5s;
 }
 .row{
   display: flex;
@@ -48,16 +53,18 @@ nav ul li a{
 h1{
   color: #fff;
   font-size: 100px;
+  line-height: 100%
 }
 p{
   color: #fff;
-  font-size: 11px;
-  line-height: 15px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: justify;
 }
 button{
   width: 180px;
   color: #000;
-  font-size: 12px;
+  font-size: 25px;
   padding: 12px 0;
   background: #fff;
   border: 0;
@@ -67,8 +74,8 @@ button{
   cursor: pointer;
 }
 .card{
-  width: 200px;
-  height: 230px;
+  width: 460px;
+  height: 350px;
   display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
@@ -77,24 +84,51 @@ button{
   margin: 10px 15px;
   background-position: center;
   background-size: cover;
+  transition: transform 0.5s;
 }
 .card1 .image-1{
-  width: 200px;
-  height: 230px;
+  width: 430px;
+  height: 320px;
   background-image: url(images/image-1.png);
 }
 .card2 .image-2{
-  width: 200px;
-  height: 230px;
+  width: 430px;
+  height: 320px;
   background-image: url(images/image-2.png);
 }
 .card3 .image-3{
-  width: 200px;
-  height: 230px;
+  width: 430px;
+  height: 320px;
   background-image: url(images/image-3.png);
 }
 .card4 .image-4{
-  width: 200px;
-  height: 230px;
+  width: 430px;
+  height: 320px;
   background-image: url(images/image-4.png);
 }
+.card:hover{
+  transform: translateY(-10px);
+}
+li:hover{
+  transform: translateY(-10px);
+}
+h5{
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+.card p{
+  text-shadow: 0 0 15px #000;
+  font-size: 30px;
+}
+.credit{
+  text-align: center;
+}
+.footer p{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  text-align: center;
