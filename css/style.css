@@ -72,6 +72,7 @@ button{
   outline: none;
   margin-top: 30px;
   cursor: pointer;
+  transition: transform 0.5s;
 }
 .card{
   width: 460px;
@@ -112,6 +113,9 @@ button{
 li:hover{
   transform: translateY(-10px);
 }
+button:hover{
+  transform: translateY(-10px);
+}
 h5{
   font-size: 50px;
   color: #fff;
@@ -121,14 +125,93 @@ h5{
   text-shadow: 0 0 15px #000;
   font-size: 30px;
 }
-.credit{
+footer{
+  width: 100%;
+  background: #e50013;;
+  color: #fff;
+}
+.container-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.column1{
+  max-width: 400px;
+}
+.column1 h4{
+  font-size: 20px;
+}
+.column1 p{
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+}
+.column2{
+  max-width: 400px;
+}
+.column2 h4{
+  font-size: 20px;
+}
+.row2{
+  margin-top: 10px;
+  display: flex;
+}
+.row2 img{
+  width: 60px;
+  height: 55px;
+}
+.row2 label{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.column3{
+  max-width: 400px;
+}
+.column3 h4{
+  font-size: 20px;
+}
+.row3{
+  margin-top: 10px;
+  display: flex;
+}
+.row3 img{
+  width: 70px;
+  height: 65px;
+}
+.row3 label{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.container-end{
+  width: 100%;
+  background: #bf0010;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright{
+  color: #fff;
+  padding: 10px;
+  padding-left: 50px;
   text-align: center;
 }
-.footer p{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
+.copyright a{
+  text-decoration: none;
   color: #fff;
+  font-weight: bold;
+}
+.version{
+  color: #fff;
+  padding: 10px;
+  padding-right: 50px;
   text-align: center;
+}
+.version a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
