@@ -151,6 +151,18 @@ footer{
   color: #fff;
   margin-top: 10px;
 }
+.row1{
+  margin-top: 10px;
+  display: flex;
+}
+.row1 img{
+  width: 130px;
+  height: 90px;
+}
+.row1 label{
+  margin-top: 20px;
+  margin-left: 10px;
+}
 .column2{
   max-width: 400px;
 }
