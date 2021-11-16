@@ -74,6 +74,10 @@ button{
   cursor: pointer;
   transition: transform 0.5s;
 }
+button a{
+  text-decoration: none;
+  color: #000;
+}
 .card{
   width: 460px;
   height: 350px;
