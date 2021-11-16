@@ -1,9 +1,12 @@
+/*Existe un problema grave de responsive en la página web en el que por alguna razón que desconozco, no encuento una solución al hecho de que cuando se hace más pequeña la página en el navegador, todo se desestructura y en teoría, todas las secciones están divididas correctamente.*/
+/*Se establecen unos parámetros generales para la web.*/
 *{
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', cursive;
     font-family: 'VT323', monospace;
 }
+/*Se enlaza remotamente un background que se empleará para las tres páginas de la web*/
 .background{
     width: 100%;
     height: 100vh;
@@ -14,6 +17,7 @@
     padding-right: 8%;
     box-sizing: border-box;
 }
+/*El menú de navegación está compuesto por el menú, logo y nombre del estudio ficticio*/
 .navbar{
   height: 12%;
   display: flex;
@@ -42,6 +46,7 @@ li{
   text-shadow: 0 0 5px #999;
   transition: transform 0.5s;
 }
+/*Aquí empezaría la sección de contenido principal*/
 .row{
   display: flex;
   height: 88%;
@@ -74,6 +79,7 @@ button{
   cursor: pointer;
   transition: transform 0.5s;
 }
+/*El botón funciona, pero se tiene que hacer click donde pone "Explore"*/
 button a{
   text-decoration: none;
   color: #000;
@@ -111,6 +117,7 @@ button a{
   height: 320px;
   background-image: url(images/image-4.png);
 }
+/*La función hover permite animar secciónes de la web*/
 .card:hover{
   transform: translateY(-10px);
 }
@@ -129,6 +136,7 @@ h5{
   text-shadow: 0 0 15px #000;
   font-size: 30px;
 }
+/*Aquí empieza el footer de la web*/
 footer{
   width: 100%;
   background: #e50013;;
@@ -232,6 +240,7 @@ footer{
   color: #fff;
   font-weight: bold;
 }
+/*Aquí empieza la página videogame.html*/
 .container-video{
   width: 80%;
   margin: 80px auto;
@@ -293,9 +302,7 @@ footer{
   transform: translate(-50%, 50%);
   cursor: pointer;
 }
-
-
-
+/*Aquí empieza la página contact.html*/
 .wrapper{
   max-width: 500px;
   width: 100%;
